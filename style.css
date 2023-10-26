@@ -1,0 +1,83 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: aquamarine;
+    display: inline-block;
+    background-position: inherit;
+    width: 170px; 
+    height: 35px;
+    padding: 2.5px;
+}
+
+h2 {
+    color: blueviolet;
+    border: 2px;
+    border-style: dashed;
+    border-color: blueviolet;
+    display: inline-block;
+    font-size: 32px;
+    width: 120px; 
+    height: 40px;
+    padding: 2.5px; 
+}
+
+.box > p {
+    color:rgb(37, 202, 147);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-align:justify;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.box li {
+    color:rgb(9, 189, 189);
+    font-weight: bold;
+    font-size: 20px;
+    text-align:justify;
+}
+
+li.done {
+    color:rgb(195, 43, 226);
+    font-weight: bold;
+    font-size: 20px;
+    text-align:justify;
+}
+
+ul p.done {
+    font-size: smaller;
+    color:rgb(37, 202, 147);
+    font-style: oblique;
+    font-size: 20px;
+    text-align:justify;
+}
+
+body, p {
+    color: blueviolet;
+    display: inline-block;
+    font-size: 16px;
+    text-align:justify;
+}
+
+footer {
+    background-color: rgb(212, 219, 219);
+    content: url(https://media.tenor.com/Squ3kjjRQ-UAAAAC/cat-heart.gif);
+    border: 2px;
+    border-color: blueviolet;
+    border-style: dashed;
+    max-width: 100px;
+    max-height: 100px;
+    block-size: auto;
+    margin-left: 22.5%;
+}
+
+
+
+
